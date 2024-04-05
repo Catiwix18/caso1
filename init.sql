@@ -1,10 +1,7 @@
--- Crear la base de datos caso1db si no existe
-CREATE DATABASE IF NOT EXISTS caso1db;
+CREATE DATABASE IF NOT EXISTS casov1;
 
--- Usar la base de datos caso1db
-USE caso1db;
+USE casov1;
 
--- Crear la tabla productos
 CREATE TABLE IF NOT EXISTS productos (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(255) NOT NULL,
